@@ -1,11 +1,7 @@
 {
   "version": 1,
-  "asset_id": "8ca4d142-fbea-49f3-9eb5-36a1055fbdcf",
-  "project_id": "b4103ae3-7598-4b41-aa94-18d21104cac6",
-  "url": "/__l5e/assets-v1/8ca4d142-fbea-49f3-9eb5-36a1055fbdcf/mercor-intro-to-agents-certificate.png",
-  "r2_key": "a/v1/b4103ae3-7598-4b41-aa94-18d21104cac6/8ca4d142-fbea-49f3-9eb5-36a1055fbdcf/mercor-intro-to-agents-certificate.png",
   "original_filename": "mercor-intro-to-agents-certificate.png",
+  "url": "/mercor-intro-to-agents-certificate.png",
   "size": 392036,
-  "content_type": "image/png",
-  "created_at": "2026-11-02T16:51:42Z"
+  "content_type": "image/png"
 }

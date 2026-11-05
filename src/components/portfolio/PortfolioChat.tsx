@@ -53,7 +53,7 @@ export function PortfolioChat() {
         type="button"
         aria-label={open ? "Close assistant" : "Ask about Muhammed"}
         onClick={() => setOpen((o) => !o)}
-        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-[60] flex items-center gap-2 rounded-full bg-electric px-4 h-12 text-sm font-bold uppercase tracking-widest text-white shadow-lg transition-transform hover:scale-105"
+        className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-[60] flex items-center gap-2 rounded-full bg-electric px-4 h-12 text-sm font-bold uppercase tracking-widest text-white shadow-lg transition-transform hover:scale-105"
       >
         {open ? <X className="size-5" /> : <MessageCircle className="size-5" />}
         <span className="hidden sm:inline">{open ? "Close" : "Ask AI"}</span>
@@ -63,7 +63,7 @@ export function PortfolioChat() {
         <div
           role="dialog"
           aria-label="Ask about Muhammed"
-          className="fixed z-[60] inset-x-2 bottom-20 sm:inset-x-auto sm:right-6 sm:bottom-24 sm:w-[380px] h-[min(560px,calc(100dvh-7rem))] flex flex-col rounded-md border border-white/10 bg-carbon text-white shadow-2xl"
+          className="fixed z-[60] inset-x-2 bottom-20 sm:inset-x-auto sm:left-6 sm:bottom-24 sm:w-[380px] h-[min(560px,calc(100dvh-7rem))] flex flex-col rounded-md border border-white/10 bg-carbon text-white shadow-2xl"
         >
           <div className="flex items-center gap-3 border-b border-white/10 px-4 py-3">
             <span className="grid size-8 shrink-0 place-items-center rounded-sm border border-electric/40 font-mono text-[10px] text-electric">MI</span>

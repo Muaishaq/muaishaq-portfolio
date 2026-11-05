@@ -1,0 +1,6 @@
+[build]
+  command = "bun run build"
+  # On Netlify, Nitro (used by TanStack Start) auto-selects its Netlify preset,
+  # which writes static assets to `dist` and the SSR function to
+  # `.netlify/functions-internal/server`.
+  publish = "dist"
